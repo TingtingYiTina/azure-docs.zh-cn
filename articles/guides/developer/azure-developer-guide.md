@@ -86,11 +86,11 @@ Azure 提供了支持应用程序开发和托管需求的服务。 Azure 还提�
 
 >开始使用：按照 Functions 快速入门教程，从门户[创建你的第一个函数](../../azure-functions/functions-create-first-azure-function.md)。
 
->**立即试用**：Azure Functions 可让你运行代码而无需注册 Azure 帐户。 立即试用并[创建你的第一个 Azure Function](https://tryappservice.azure.com/)。
+>**立即试用**：Azure Functions 可让你在不注册 Azure 帐户的情况下运行代码。 立即试用并[创建你的第一个 Azure Function](https://tryappservice.azure.com/)。
 
 #### <a name="azure-service-fabric"></a>Azure Service Fabric
 
-Azure Service Fabric 是一个分布式系统平台，适用于生成、打包、部署和管理可缩放的可靠微服务。 它还提供了全面的应用程序管理功能，用于设置、部署、监视、升级/修补和删除部署的应用程序。 在共享计算机池上运行的应用可以从小规模开始，再根据需要扩展为成百上千个计算机。
+Azure Service Fabric 是一个分布式系统平台，适用于生成、打包、部署和管理可缩放的可靠微服务。 它还提供了全面的应用程序管理功能，用于设置、部署、监视、升级/修补和删除部署的应用程序。 在计算机共享池上运行的应用可以从小规模开始，再根据需要扩展为成百上千个计算机。
 
 Service Fabric 支持具有 Open Web Interface for .NET (OWIN) 和 ASP.NET Core 的 WebAPI。 它提供了用于在 Linux 上使用 .NET Core 和 Java 构建服务的 SDK。 若要了解有关 Service Fabric 的详细信息，请参阅 [Service Fabric 学习路径](https://azure.microsoft.com/documentation/learning-paths/service-fabric/)。
 
@@ -100,7 +100,7 @@ Service Fabric 支持具有 Open Web Interface for .NET (OWIN) 和 ASP.NET Core 
 
 ### <a name="enhance-your-applications-with-azure-services"></a>使用 Azure 服务增强应用程序
 
-除了应用程序托管，Azure 还在云中和本地提供了可以增强应用程序功能、开发和维护的服务产品。
+除了应用程序托管，Azure 还在云和本地提供了可以增强应用程序功能、开发和维护的服务产品。
 
 #### <a name="hosted-storage-and-data-access"></a>托管存储和数据访问
 
