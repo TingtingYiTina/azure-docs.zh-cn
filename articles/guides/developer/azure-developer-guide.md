@@ -1,6 +1,6 @@
 ---
 title: 面向 Azure 开发人员的入门指南 | Microsoft 文档
-description: 本主题面向希望开始使用 Microsoft Azure 平台以满足自己开发需求的开发人员提供了相关的基本信息。
+description: 本主题对希望开始使用 Microsoft Azure 平台以满足自己开发需求的开发人员提供了相关的基本信息。
 services: ''
 cloud: ''
 documentationcenter: ''
@@ -25,7 +25,7 @@ ms.locfileid: "49956425"
 
 ## <a name="what-is-azure"></a>什么是 Azure？
 
-Azure 是一个完整的云平台，可以托管你现有的应用程序，简化新应用程序的开发，甚至还可以增强本地应用程序的功能。 在充分利用云计算效率的同时，Azure 集成了开发、测试、部署和管理应用程序所需的各种云服务。
+Azure 是一个完整的云平台，可以托管现有的应用程序，简化新应用程序的开发效率，甚至还可以增强本地应用程序的功能。 在充分利用云计算效率的同时，Azure 集成了开发、测试、部署和管理应用程序所需的各种云服务。
 
 通过在 Azure 中托管应用程序，你可以随着客户需求的增长，从小规模开始轻松扩展应用程序。 另外，Azure 还可以针对高可用性应用程序提供所需的可靠性，甚至包括在两个不同区域之间的故障转移。 通过 [Azure 门户](https://portal.azure.com)，可让你轻松管理所有的 Azure 服务。 同时，你还可以通过使用特定于服务的 API 和模板以编程方式管理你的服务。
 
@@ -33,9 +33,9 @@ Azure 是一个完整的云平台，可以托管你现有的应用程序，简�
 
 ## <a name="where-do-i-start"></a>从哪里开始？
 
-面对 Azure 提供的众多服务，想要从中找出支持你解决方案体系结构的服务，也是一项艰巨的任务。 本部分将重点介绍开发人员通常使用的 Azure 服务。 有关所有 Azure 服务列表，请参阅 [Azure 文档](../../index.md)。
+面对 Azure 提供的众多服务，想要从中找出支持解决方案体系结构的服务，也是一项艰巨的任务。 本部分将重点介绍开发人员通常使用的 Azure 服务。 有关所有 Azure 服务列表，请参阅 [Azure 文档](../../index.md)。
 
-首先，你必须确定在 Azure 中托管应用程序的方式。 是否需要将整个基础结构作为一台虚拟机 (VM) 来管理。 是否可以使用 Azure 提供的平台管理功能？ 或许你只需要一个无服务器框架来托管代码执行？
+首先，你必须确定在 Azure 中托管应用程序的方式。 是否需要将整个基础结构作为一台虚拟机 (VM) 来管理？是否可以使用 Azure 提供的平台管理功能？ 或许你只需要一个无服务器框架来托管代码执行？
 
 应用程序需要云存储，Azure 为此提供了若干选项。 你可以利用 Azure 的企业身份验证。 此外，还有用于基于云开发和监视的各种工具，并且大多数托管服务都提供 DevOps 集成。
 
@@ -56,7 +56,7 @@ Azure 提供了支持应用程序开发和托管需求的服务。 Azure 还提�
 
 可以创建 Web 应用、移动应用后端和 API 应用。
 
-由于所有上述三个应用类型均共享应用服务运行时，因此，你可以托管网站，支持移动客户端，并在 Azure 中公开你的 API，所有这些均可在同一个项目或解决方案中完成。 若要了解有关应用服务的详细信息，请参阅[什么是 Azure Web 应用](../../app-service/app-service-web-overview.md)。
+由于所有上述三个应用类型均共享应用服务运行，因此，你可以托管网站，支持移动客户端，并在 Azure 中公开你的 API，所有这些均可在同一个项目或解决方案中完成。 若要了解有关应用服务的详细信息，请参阅[什么是 Azure Web 应用](../../app-service/app-service-web-overview.md)。
 
 应用服务在设计之初就考虑到了 DevOps。 它可以支持各种用于发布和持续集成部署的工具，包括 GitHub webhook、Jenkins、Azure DevOps、TeamCity 等。
 
@@ -80,7 +80,7 @@ Azure 提供了支持应用程序开发和托管需求的服务。 Azure 还提�
 
 #### <a name="azure-functions-serverless"></a>Azure Functions（无服务器）
 
-你无需担心构建和管理整个应用程序或运行代码的基础结构。 而是，只需编写代码并以响应事件的方式或按计划来运行代码，那会是怎样？  [Azure Functions](../../azure-functions/functions-overview.md) 是一个“无服务器”样式的产品，可让你仅编写所需的代码。 借助 Functions，将通过 HTTP 请求、webhook、云服务事件，或按计划触发代码执行。 你可以使用所选的开发语言开发编码，如 C\#、F\#、Node.js、Python 或 PHP。 使用基于消耗的计费方式，只需要支付代码执行的时间，并且 Azure 可根据需要进行扩展。
+相比担心构建和管理整个应用程序或运行代码的基础结构，你可以只编写代码来执行事件或按照预定时间来执行事件。  [Azure Functions](../../azure-functions/functions-overview.md) 是一个“无服务器”样式的产品，可让你仅编写所需的代码。 借助 Functions，将通过 HTTP 请求、webhook、云服务事件，或按计划触发代码执行。 你可以使用所选的开发语言开发编码，如 C\#、F\#、Node.js、Python 或 PHP。 使用基于消耗的计费方式，只需要支付代码执行的时间，并且 Azure 可根据需要进行扩展。
 
 >何时使用：在你具有由其他 Azure 服务、基于 Web 的事件，或按计划触发的代码的情况下，可以使用 Azure Functions。 此外，当你不需要完整托管项目的开销或者只想支付代码运行时间时，也可以使用 Functions。 有关详细信息，请参阅 [Azure Functions 概览](../../azure-functions/functions-overview.md)。
 
