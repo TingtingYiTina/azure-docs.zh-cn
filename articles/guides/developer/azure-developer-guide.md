@@ -86,7 +86,7 @@ Azure 提供了支持应用程序开发和托管需求的服务。 Azure 还提�
 
 >开始使用：按照 Functions 快速入门教程，从门户[创建你的第一个函数](../../azure-functions/functions-create-first-azure-function.md)。
 
->**立即试用**：Azure Functions 可让你运行代码而无需注册 Azure 帐户。 立即试用并[创建你的第一个 Azure Function](https://tryappservice.azure.com/)。
+>**立即试用**：Azure Functions 可让你在不注册 Azure 帐户的情况下运行代码。 立即试用并[创建你的第一个 Azure Function](https://tryappservice.azure.com/)。
 
 #### <a name="azure-service-fabric"></a>Azure Service Fabric
 
